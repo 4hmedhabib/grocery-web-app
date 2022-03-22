@@ -3,6 +3,7 @@ import {
   ShoppingCartIcon,
   PhoneIcon,
   UserCircleIcon,
+  SearchIcon,
 } from "@heroicons/react/outline";
 
 function App() {
@@ -64,20 +65,27 @@ function App() {
             </div>
           </div>
 
-          <div id="right" className="flex gap-5 items-center justify-between">
-            <div
-              id="search_container"
-              className=" max-w-xs md:max-w-md bg-primary"
-            >
+          <div
+            id="right"
+            className="flex gap-5 items-center justify-between w-full md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl"
+          >
+            <div id="search_container" className="w-full relative">
               <div id="input_container">
                 <input
                   type="text"
                   name="search"
                   placeholder=""
-                  className=" border-gray-500/20 border py-1 rounded-full w-full"
+                  className=" border-gray-500/20 border py-1 rounded-full w-full pr-20 outline-none pl-4"
                 />
               </div>
-              <div id="serach_icon_container"></div>
+              <div
+                id="serach_icon_container"
+                className="absolute top-0 right-0 bg-primary w-16 h-full rounded-tr-full rounded-br-full flex justify-center items-center cursor-pointer"
+              >
+                <span>
+                  <SearchIcon className="text-white" width={20} height={20} />
+                </span>
+              </div>
             </div>
             <div id="user_container">
               <div id="user_icon">
