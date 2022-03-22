@@ -1,5 +1,5 @@
 .showcase_container {
-  @apply font-nunito flex flex-col justify-center items-center h-96 bg-green-50;
+  @apply font-nunito flex flex-col justify-center items-center h-96 bg-green-50 shadow-md shadow-gray-200/20;
 }
 
 .title {
