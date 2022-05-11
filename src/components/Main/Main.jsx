@@ -4,6 +4,7 @@ import React from "react";
 import Showcase from "./Showcase/Showcase";
 import WhatWeDo from "./WhatWeDo/WhatWeDo";
 import Intro from "../Products/Intro";
+import Order from "./Order/Order";
 
 const Main = () => {
   return (
@@ -13,6 +14,8 @@ const Main = () => {
       <WhatWeDo />
 
       <Intro />
+
+      <Order />
 
       <br />
       <br />
