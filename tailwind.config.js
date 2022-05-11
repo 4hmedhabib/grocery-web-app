@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       fontFamily: {
         nunito: "Nunito",
+        viga: "Viga",
       },
       colors: {
         primary: "#7eb23d",
