@@ -4,7 +4,7 @@ import Card from "../UI/Card";
 
 const Intro = () => {
   return (
-    <div className="flex flex-col items-center justify-between sm:flex-row mx-3 font-nunito lg:mx-20 md:items-start gap-3">
+    <div className="flex flex-col sm:items-center justify-between md:flex-row mx-3 font-nunito lg:mx-20 md:items-start gap-3">
       {/* Hot Offer */}
       <HotOffer />
 
