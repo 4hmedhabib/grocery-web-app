@@ -19,17 +19,6 @@ const Main = () => {
       <Order />
 
       <Subscribe />
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </main>
   );
 };
